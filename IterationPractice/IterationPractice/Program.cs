@@ -5,16 +5,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] testScores = { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
+        //int[] testScores = { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
 
-        for (int i = 0; i < testScores.Length; i++)
-        {
-            if (testScores[i] > 85)
-            {
-                Console.WriteLine("Passing test score: " + testScores[i]);
-            }
-        }
-        Console.ReadLine();
+        //for (int i = 0; i < testScores.Length; i++)
+        //{
+        //    if (testScores[i] > 85)
+        //    {
+        //        Console.WriteLine("Passing test score: " + testScores[i]);
+        //    }
+        //}
+        //Console.ReadLine();
 
         //string[] names = { "Jesse", "Erik", "Daniel", "Adam" };
 
@@ -68,19 +68,19 @@ class Program
         //}
         //Console.ReadLine();
 
-        //List<int> testScores = new List<int>() { 98, 99, 12, 74, 23, 99 };
-        //List<int> passingScores = new List<int>();
+        List<int> testScores = new List<int>() { 98, 99, 12, 74, 23, 99 };
+        List<int> passingScores = new List<int>();
 
-        //foreach (int score in testScores)
-        //{
-        //    if (score > 85)
-        //    {
-        //        passingScores.Add(score);
-        //    }
-        //}
+        foreach (int score in testScores)
+        {
+            if (score > 85)
+            {
+                passingScores.Add(score);
+            }
+        }
 
-        //Console.WriteLine(passingScores.Count);
-        //Console.ReadLine();
+        Console.WriteLine(passingScores.Count);
+        Console.ReadLine();
     }
 }
 
