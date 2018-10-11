@@ -195,14 +195,18 @@ namespace IterationExercise
             //Console.ReadLine();
 
             // 10.
-            List<string> foods = new List<string>() { "nuts", "nuts", "milk", "milk", "apples", "apples" };
+            List<string> foods = new List<string>() { "nuts", "cheese", "milk", "milk", "apples", "bacon" };
             List<string> matchingFoods = new List<string>();
-
+            Console.WriteLine("List of foods:" + foods.Distinct());
             foreach (string food in foods)
             {
-                if (food == "nuts")
+                if (matchingFoods.Contains(food))
                 {
                     matchingFoods.Add(food);
+                }
+                else
+                {
+                    Console.WriteLine("We have already seen " + food);
                 }
             }
 
