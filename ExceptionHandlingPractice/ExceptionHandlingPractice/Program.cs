@@ -13,7 +13,7 @@ namespace ExceptionHandlingPractice
             try
             {
                     Console.WriteLine("Pick a number.");
-                    2int numberOne = Convert.ToInt32(Console.ReadLine());
+                    int numberOne = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Pick a second number.");
                     int numberTwo = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Dividing the two...");
