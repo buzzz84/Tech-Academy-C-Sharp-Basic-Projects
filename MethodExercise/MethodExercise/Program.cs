@@ -30,7 +30,7 @@ namespace MethodExercise
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message + " Try again!");
+                    Console.WriteLine(ex.Message + " Try a different number than zero!");
                 }
             }
             Console.ReadLine();
