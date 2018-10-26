@@ -21,7 +21,14 @@ namespace TwentyOneClassesAndObjects
                                                  //player.Name = "Jesse";
                                                  //game += player; // same as game = game + player; 
                                                  //game -= player; // same as game = game - player;
-            
+            Card card1 = new Card();
+            Card card2 = card1;
+            card1.Face = Face.Eight;
+            card2.Face = Face.King;
+
+            Console.WriteLine(card1.Face);
+            Console.Read();
+
             Deck deck = new Deck();
             deck.Shuffle(3);
 
