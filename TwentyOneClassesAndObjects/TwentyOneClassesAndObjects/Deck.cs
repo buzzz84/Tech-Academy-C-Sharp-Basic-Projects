@@ -37,5 +37,23 @@ namespace TwentyOneClassesAndObjects
             //Cards.Add(cardOne);
         }
         public List<Card> Cards { get; set; }
+
+        public void Shuffle(int times = 1)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>(); //Temp list to house cards for shuffling action
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count); // needs two numbers. first is zero, second is count of deck left
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+            }
+
+        }
     }
 }
