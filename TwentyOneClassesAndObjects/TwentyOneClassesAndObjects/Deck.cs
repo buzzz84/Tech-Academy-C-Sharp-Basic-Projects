@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOneClassesAndObjects
+namespace TwentyOne
 {
     public class Deck
     {

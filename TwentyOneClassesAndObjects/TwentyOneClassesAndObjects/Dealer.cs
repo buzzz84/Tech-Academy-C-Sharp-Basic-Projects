@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
-namespace TwentyOneClassesAndObjects
+namespace TwentyOne
 {
     public class Dealer
     {
@@ -15,7 +16,12 @@ namespace TwentyOneClassesAndObjects
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First()); //Add first item
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n"); //Print it to console
+            string card = string.Format(Deck.Cards.First().ToString() + "\n"); //Logging cards dealt into Log.txt
+            Console.WriteLine(card); //Print it to console
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Melissa\Desktop\Logs\log.txt", true)) //cleaning up usage to save memory
+            {
+                file.WriteLine(card);
+            }
             Deck.Cards.RemoveAt(0); //Remove first item from list
         }
     }
