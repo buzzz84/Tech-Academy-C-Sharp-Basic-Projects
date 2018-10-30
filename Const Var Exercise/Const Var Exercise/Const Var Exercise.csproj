@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3310872-847C-4BE6-A769-5432CF4129DD}</ProjectGuid>
+    <ProjectGuid>{77917984-6F31-4BA1-BB5D-5ABE57E84186}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TwentyOneClassesAndObjects</RootNamespace>
-    <AssemblyName>TwentyOneClassesAndObjects</AssemblyName>
+    <RootNamespace>Const_Var_Exercise</RootNamespace>
+    <AssemblyName>Const Var Exercise</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Casino">
-      <HintPath>..\Casino\bin\Debug\netstandard2.0\Casino.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

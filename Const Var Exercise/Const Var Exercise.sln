@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Const Var Exercise", "Const Var Exercise\Const Var Exercise.csproj", "{77917984-6F31-4BA1-BB5D-5ABE57E84186}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77917984-6F31-4BA1-BB5D-5ABE57E84186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77917984-6F31-4BA1-BB5D-5ABE57E84186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77917984-6F31-4BA1-BB5D-5ABE57E84186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77917984-6F31-4BA1-BB5D-5ABE57E84186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66532592-0526-4679-9E1E-C3B172866593}
+	EndGlobalSection
+EndGlobal
